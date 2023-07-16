@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>modal-window</title>
+
+    <!-- FontAwesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./style/normalize" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <button class="btn-show-modal">show modal 1</button
+    ><button class="btn-show-modal">show modal 2</button
+    ><button class="btn-show-modal">show modal 3</button>
+    <div class="modal hidden" id="modal">
+      <button class="btn-close-modal" id="btn-close-modal">&times</button>
+      <h1 class="modal-title">Im A Modal Window</h1>
+      <p class="modal-content">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis vitae
+        ducimus illum culpa quia in nesciunt nisi, molestias alias, quisquam,
+        reiciendis magni harum atque! Officiis nesciunt hic reiciendis voluptate
+        quos officia fuga error commodi perferendis, rem porro consectetur nulla
+        autem dolorem exercitationem iure illum recusandae adipisci id obcaecati
+        fugit sequi quae, tempore facere! Tenetur saepe neque temporibus hic!
+        Maxime, similique?
+      </p>
+    </div>
+    <!-- custom js -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
